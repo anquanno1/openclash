@@ -58,21 +58,21 @@ DOMAIN-SUFFIX,steampowered.com
 DOMAIN-SUFFIX,abcproxy.com
 
 # > Google
-- DOMAIN-SUFFIX,appspot.com,Proxy
-- DOMAIN-SUFFIX,blogger.com,Proxy
-- DOMAIN-SUFFIX,getoutline.org,Proxy
-- DOMAIN-SUFFIX,gvt0.com,Proxy
-- DOMAIN-SUFFIX,gvt1.com,Proxy
-- DOMAIN-SUFFIX,gvt3.com,Proxy
-- DOMAIN-SUFFIX,xn--ngstr-lra8j.com,Proxy
-- DOMAIN-KEYWORD,google,Proxy
-- DOMAIN-KEYWORD,blogspot,Proxy
+DOMAIN-SUFFIX,appspot.com,Proxy
+DOMAIN-SUFFIX,blogger.com,Proxy
+DOMAIN-SUFFIX,getoutline.org,Proxy
+DOMAIN-SUFFIX,gvt0.com,Proxy
+DOMAIN-SUFFIX,gvt1.com,Proxy
+DOMAIN-SUFFIX,gvt3.com,Proxy
+DOMAIN-SUFFIX,xn--ngstr-lra8j.com,Proxy
+DOMAIN-KEYWORD,google,Proxy
+DOMAIN-KEYWORD,blogspot,Proxy
 
 # > TheMovieManager
-- DOMAIN,api.themoviedb.org
-- DOMAIN,image.tmdb.org
-- DOMAIN,www.themoviedb.org
-- DOMAIN,api.themoviedb.org
+DOMAIN,api.themoviedb.org
+DOMAIN,image.tmdb.org
+DOMAIN,www.themoviedb.org
+DOMAIN,api.themoviedb.org
 
 IP-CIDR,8.8.8.8/32,no-resolve
 IP-CIDR,8.8.4.4/32,no-resolve
