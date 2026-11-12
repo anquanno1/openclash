@@ -1,5 +1,5 @@
 # Study: adult-domain rule set for Shadowrocket / Surge-compatible RULE-SET
-# Entries: 6523 (5 DOMAIN, 6518 DOMAIN-SUFFIX); no policy names
+# Entries: 6527 (5 DOMAIN, 6522 DOMAIN-SUFFIX); no policy names
 # Source: https://github.com/MetaCubeX/meta-rules-dat
 # Source commit: 458e716abd80ff8c6aee2b7d15c4f94b20e9d279
 # Source path: geo/geosite/category-porn.list (6521 entries)
@@ -9,6 +9,7 @@
 # Licenses: MetaCubeX GPL-3.0; ACL4SSR CC-BY-SA-4.0
 # Attribution and conversion: Study.SOURCES.md
 # GPL text: licenses/Study-GPL-3.0.txt
+# User-directed supplements (2026-11-12): four existing video suffix rules migrated to this list
 # Snapshot date: 2026-11-12; manual maintenance, no automatic updater
 DOMAIN,anime-rule34-world.b-cdn.net
 DOMAIN,misa-prod.s3.ap-northeast-1.amazonaws.com
@@ -6533,3 +6534,9 @@ DOMAIN,ad-display.diwodiwo.xyz
 DOMAIN-SUFFIX,collector.xhamster.com
 DOMAIN-SUFFIX,ahcdn.com
 DOMAIN-SUFFIX,dditscdn.com
+
+# User-directed migration from existing video rules (2026-11-12)
+DOMAIN-SUFFIX,91cg1.com
+DOMAIN-SUFFIX,911dsj.com
+DOMAIN-SUFFIX,bench.kckdpiqpp.com
+DOMAIN-SUFFIX,and.ikhjevmq.cc

@@ -1,6 +1,6 @@
 # Study rule set
 
-`Study.list` contains 6,523 public domain rules for an adult-content routing category. It has no proxy endpoints, authentication parameters, or policy names.
+`Study.list` contains 6,527 public domain rules for an adult-content routing category. It has no proxy endpoints, authentication parameters, or policy names.
 
 ## Sources and attribution
 
@@ -9,10 +9,14 @@
 
 ## Conversion
 
-The five exact-domain entries remain `DOMAIN`; the 6,516 MetaCubeX entries beginning with `+.` become `DOMAIN-SUFFIX`. Adding the two legacy suffixes yields 5 exact-domain and 6,518 suffix rules. This conversion adds no keyword, regular-expression, script, or IP rules. The external file contains the same ordered domain rules as the previous embedded snapshot, with the client policy removed.
+The five exact-domain entries remain `DOMAIN`; the 6,516 MetaCubeX entries beginning with `+.` become `DOMAIN-SUFFIX`. Adding the two legacy suffixes yielded 5 exact-domain and 6,518 suffix rules. The user-directed migration below adds four suffix rules, bringing the current total to 6,527 (5 exact-domain and 6,522 suffix rules). This conversion adds no keyword, regular-expression, script, or IP rules. The initial external file preserved the previous embedded snapshot with the client policy removed; the four subsequent user-directed supplements are appended below that original ordered snapshot.
 
 ## Use
 
 Reference this file through Shadowrocket's `RULE-SET` and choose a policy or policy group in the main configuration. Category membership does not dictate blocking or proxying; the main configuration controls the action. Existing earlier exceptions continue to take precedence.
 
 This is a manually maintained snapshot dated 2026-11-12. Client-side rule-set refreshes retrieve the latest file committed to this repository; no upstream synchronization or scheduled task is installed.
+
+## User-directed supplements (2026-11-12)
+
+At the user's explicit correction identifying four remaining inline video rules in a screenshot, these existing `DOMAIN-SUFFIX` rules were moved from the client's video category into `Study.list`: `91cg1.com`, `911dsj.com`, `bench.kckdpiqpp.com`, and `and.ikhjevmq.cc`. Their suffix-matching semantics are unchanged. These four entries are user-directed supplements from the existing configuration, not attributed to MetaCubeX or ACL4SSR. The main configuration now routes them through its existing Study RULE-SET policy.
